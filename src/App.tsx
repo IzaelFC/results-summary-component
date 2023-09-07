@@ -1,3 +1,8 @@
+import reaction from './assets/images/icon-reaction.svg'
+import memory from './assets/images/icon-memory.svg'
+import verbal from './assets/images/icon-verbal.svg'
+import visual from './assets/images/icon-visual.svg'
+
 export default function App() {
   return (
     <div className="sm:flex sm:w-screen h-screen place-items-center justify-center sm:px-5">
@@ -21,7 +26,7 @@ export default function App() {
         <div className="sm:space-y-5 space-y-3 sm:my-10 my-5">
           <div className="flex bg-[--light-red-tr] justify-between p-3 rounded">
             <div className="flex">
-              <img src="src/assets/images/icon-reaction.svg" alt="" />
+              <img src={ reaction } alt="" />
               <p className="text-[--light-red]">Reaction</p>
             </div>
 
@@ -32,7 +37,7 @@ export default function App() {
 
           <div className="flex bg-[--orangey-yellow-tr] justify-between p-3 rounded">
             <div className="flex">
-              <img src="src/assets/images/icon-memory.svg" alt="" />
+              <img src={ memory } alt="" />
               <p className="text-[--orangey-yellow]">Memory</p>
             </div>
 
@@ -43,7 +48,7 @@ export default function App() {
 
           <div className="flex bg-[--green-teal-tr] justify-between p-3 rounded">
             <div className="flex">
-              <img src="src/assets/images/icon-verbal.svg" alt="" />
+              <img src={ verbal } alt="" />
               <p className="text-[--green-teal]">Verbal</p>
             </div>
 
@@ -54,7 +59,7 @@ export default function App() {
 
           <div className="flex bg-[--cobalt-blue-tr] justify-between p-3 rounded">
             <div className="flex">
-              <img src="src/assets/images/icon-visual.svg" alt="" />
+              <img src={ visual } alt="" />
               <p className="text-[--cobalt-blue]">Visual</p>
             </div>
 
